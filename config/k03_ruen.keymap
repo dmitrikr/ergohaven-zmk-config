@@ -169,11 +169,11 @@
 
         nav {
             bindings = <
-&kp LT            &kp GT           &kp AT        &kp HASH      &kp DOLLAR     &kp PERCENT                                    &kp CARET  &kp AMPS  &kp TILDE     &kp QUESTION  &kp PIPE         &kp PRINTSCREEN
-&kp LEFT_BRACKET  &kp RBKT         &kp HOME      &kp END       &kp COLON      &kp SEMI                                       &kp EXCL   &kp N1    &kp NUMBER_2  &kp N3        &kp KP_PLUS      &kp KP_MINUS
-&kp LPAR          &kp RPAR         &kp LA(LEFT)  &kp UP        &kp LA(RIGHT)  &kp PG_UP                                      &kp GRAVE  &kp N4    &kp N5        &kp N6        &kp KP_ASTERISK  &kp KP_DIVIDE
-&kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT      &kp DOWN      &kp RIGHT      &kp PAGE_DOWN  &kp DOT      &kp COMMA          &kp SQT    &kp N7    &kp N8        &kp N9        &kp KP_EQUAL     &kp BACKSLASH
-                                   &kp TAB       &four_spaces  &trans         &trans         &kp UNDER    &kp DOUBLE_QUOTES  &trans     &mo 5     &kp N0        &trans
+&kp LT            &kp GT           &kp AT        &kp HASH      &kp DOLLAR       &kp PERCENT                                    &kp CARET  &kp AMPS  &kp TILDE     &kp QUESTION  &kp PIPE         &kp DELETE
+&kp LEFT_BRACKET  &kp RBKT         &kp HOME      &kp END       &kp COLON        &kp SEMI                                       &kp EXCL   &kp N1    &kp NUMBER_2  &kp N3        &kp KP_PLUS      &kp KP_MINUS
+&kp LPAR          &kp RPAR         &kp LA(LEFT)  &kp UP        &kp LA(RIGHT)    &kp PG_UP                                      &kp GRAVE  &kp N4    &kp N5        &kp N6        &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LEFT      &kp DOWN      &kp RIGHT        &kp PAGE_DOWN  &kp DOT      &kp COMMA          &kp SQT    &kp N7    &kp N8        &kp N9        &kp KP_EQUAL     &kp BACKSLASH
+                                   &kp TAB       &four_spaces  &kp PRINTSCREEN  &trans         &kp UNDER    &kp DOUBLE_QUOTES  &trans     &mo 5     &kp N0        &kp LSHFT
             >;
 
             display-name = "Navigation";
@@ -216,11 +216,11 @@
 
         layer_6 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&to 0   &to 1   &to 2   &to 3   &to 4   &trans                    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &to_ru  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &to 0   &to 1   &to 2   &trans  &trans   &trans   &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp F1    &kp F2   &kp F3              &kp F4              &kp F5         &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&to 0     &to 1    &to 2               &to 3               &to 4          &trans                    &trans  &trans  &trans  &trans   &trans   &trans
+&kp CAPS  &kp INS  &kp PAUSE_BREAK     &kp LS(UP)          &trans         &trans                    &to_ru  &trans  &trans  &trans   &trans   &trans
+&trans    &trans   &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT)  &trans  &trans    &to 0   &to 1   &to 2   &trans  &trans   &trans   &trans
+                   &trans              &trans              &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
