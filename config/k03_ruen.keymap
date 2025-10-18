@@ -90,8 +90,8 @@
                 <&to_ru>;
 
             label = "EN";
-            wait-ms = <15>;
-            tap-ms = <40>;
+            wait-ms = <20>;
+            tap-ms = <30>;
         };
 
         lg_tog: lg_tog {
@@ -104,7 +104,13 @@
         enmod: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_en &mo 3>;
+            bindings =
+                <&macro_press>,
+                <&kp LG(SPACE) &mo 3>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LG(SPACE) &mo 3>;
+
             label = "NEW_MACRO";
         };
     };
