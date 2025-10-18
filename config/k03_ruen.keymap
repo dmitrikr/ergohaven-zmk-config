@@ -106,10 +106,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LG(SPACE) &mo 3>,
+                <&mo 3>,
+                <&macro_tap>,
+                <&kp LG(SPACE)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LG(SPACE) &mo 3>;
+                <&mo 3>,
+                <&macro_tap>,
+                <&kp LG(SPACE)>;
 
             label = "NEW_MACRO";
         };
